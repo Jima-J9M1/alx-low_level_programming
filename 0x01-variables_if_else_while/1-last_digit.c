@@ -23,4 +23,4 @@ else if (ld == 0)
 {
 printf("Last digit of %d is %d is 0 and is 0\n", n, ld);
 }
-}
+
