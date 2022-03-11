@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-char base[16] = "0123456789abcdf";
+char base[16] = "0123456789abcdef";
 int i;
 for (i = 0; i < 16; i++)
 {
