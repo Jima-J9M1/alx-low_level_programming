@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#inlcude <ctype.h>
+#include <ctype.h>
 #include <stdio.h>
 /**
  * main - determine the lowercase of alphabet
@@ -8,10 +8,13 @@
  */
 int main(void)
 {
-char al[26] = "abcdefghijklmnopqrstuvwxyz";
-for(int i=0;i <= 26;i++)
-{
-putchar(tolower(al[i]));
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
+
+	for (i = 0; i < 26; i++)
+	{
+		putchar(alp[i]);
+	}
+	putchar('\n');
+	return (0);
 }
-return (0);
-} 
