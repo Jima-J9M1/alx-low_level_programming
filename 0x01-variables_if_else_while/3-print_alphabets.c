@@ -14,7 +14,6 @@ for (i = 0; i < 26; i++)
 {
 putchar(alp[i]);
 }
-putchar('\n');
 for (i = 0; i < 26; i++)
 {
 putchar(toupper(alp[i]));
