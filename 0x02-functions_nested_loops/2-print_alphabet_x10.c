@@ -4,13 +4,18 @@
  *
  * Return: Always 0 (Success)
  */
-void print_alphabet(void)
+int main(void)
 {
 char al[26] = "abcdefghijklmnopqrstuvwxyz";
 int i;
+int j = 0;
+while (j < 10)
+{
 for (i = 0; i < 26; i++)
 {
-_putchar(al[i]);
+_putchar(al[0]);
 }
-putchar('\n');
+j++;
 }
+}
+
