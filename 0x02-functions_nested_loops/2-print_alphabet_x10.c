@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - Determines either greater than 5, is less than 6, or is 0
+ * print_alphabet_x10 - prints the alphabet 10 times
  *
  * Return: Always 0 (Success)
  */
