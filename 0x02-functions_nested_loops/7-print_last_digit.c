@@ -5,18 +5,19 @@
  * @r: number that was changed with abs
  * Return: Always 0 (Success)
  */
-int print_last_digit(int r)
+int print_last_digit(int n)
 {
-int i;
-i = r % 10;
-if (i < 0)
-{
-_putchar(i);
-return (i);
-}
-else
-{
-_putchar(-i);
-return (-i);
-}
+	int l;
+
+	l = n % 10;
+	if (l < 0)
+	{
+		_putchar(-l + 48);
+		return (-l);
+	}
+	else
+	{
+		_putchar(l + 48);
+		return (l);
+	}
 }
