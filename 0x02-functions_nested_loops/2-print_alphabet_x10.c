@@ -6,8 +6,6 @@
  */
 void print_alphabet_x10(void)
 {
-char al[26] = "abcdefghijklmnopqrstuvwxyz";
-int i;
 int j = 0;
 while (j < 10)
 {
