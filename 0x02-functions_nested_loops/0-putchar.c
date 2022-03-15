@@ -1,6 +1,4 @@
-#include <stdlib.h>
-#include <main.h>
-#include <stdio.h>
+#include "main.h"
 /**
  * main - Determines either greater than 5, is less than 6, or is 0
  *
@@ -8,7 +6,7 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	_putchar("_putchar\n");
 	return (0);
 }
 
