@@ -19,7 +19,7 @@ printf("%d, ", i);
 }
 else if (n < 98)
 {
-for (i = 0; i < 98; i++)
+for (i = n; i < 98; i++)
 {
 printf("%d, ", i);
 }
