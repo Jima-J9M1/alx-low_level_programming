@@ -14,11 +14,13 @@ for (i = n; i >= 98; i++)
 {
 _putchar(i + '0');
 }
+}
 else
 {
 for (i = 0; i <= 98; i++)
 {
 _putchar(i + '0');
 _putchar(',');
+}
 }
 }
