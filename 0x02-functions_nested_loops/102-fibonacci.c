@@ -10,7 +10,7 @@ int arr[50];
 int i;
 arr[0] = 1;
 arr[1] = 2;
-printf("%d, ", arr[0])
+printf("%d, ", arr[0]);
 printf("%d, ", arr[1]);
 for (i = 1; i < 50; i++)
 {
