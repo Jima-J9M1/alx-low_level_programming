@@ -8,16 +8,6 @@
  */
 int add(int r, int m)
 {
-int k;
-k = r + m;
-if (k <= 9)
-{
-_putchar(k + 48);
-}
-else
-{
-_putchar((k / 10) + 48);
-_putchar((k % 10) + 48);
-}
-return (0);
+
+return (r + m);
 }
