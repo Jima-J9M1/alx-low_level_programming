@@ -21,7 +21,7 @@ else
 {
 for (i = 0; i <= 98; i++)
 {
-printf("%d, ", i)
+printf("%d, ", i);
 }
 }
 }
