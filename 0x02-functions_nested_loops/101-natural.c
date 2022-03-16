@@ -16,6 +16,6 @@ sum += n;
 }
 n += 1;
 }
-printf("%d\n", n);
+printf("%d\n", sum);
 return (0);
 }
