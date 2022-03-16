@@ -1,0 +1,19 @@
+#include "main.h"
+/**
+ * main - determine the multiple of 3 and 5
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+int n, sum = 0;
+while (n >= 1024)
+{
+if (n % 3 == 0 || n % 5 == 0)
+{
+sum += n;
+}
+}
+printf("%d\n", n);
+return (0);
+}
