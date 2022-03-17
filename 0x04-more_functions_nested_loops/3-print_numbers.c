@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-int print_numbers(void)
+void print_numbers(void)
 {
 int i;
 for (i = 48; i < 58; i++)
