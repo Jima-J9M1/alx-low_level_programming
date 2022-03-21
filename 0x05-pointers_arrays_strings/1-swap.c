@@ -11,5 +11,4 @@ int *temp;
 temp = a;
 a = b;
 b = temp;
-return (0);
 }
