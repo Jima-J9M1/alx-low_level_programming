@@ -12,7 +12,7 @@ n = strlen(str);
 
 if (n % 2 == 0)
 {
-  i = (n / 2) + 1;
+i = (n / 2) ;
 while (i < n)
 {
 _putchar(str[i]);
@@ -21,7 +21,7 @@ i = i + 1;
 }
 else
 {
-i = (n - 1) / 2;
+i = ((n - 1) / 2) + 1;
 while (i < n)
 {
 _putchar(str[i]);
