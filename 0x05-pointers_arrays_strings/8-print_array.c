@@ -15,8 +15,9 @@ while (i < n)
 printf("%d", *(a + i));
 if (i != n - 1)
 {
-_putchar(',');
+printf(", ");
 }
 i++;
 }
+printf("\n");
 }
