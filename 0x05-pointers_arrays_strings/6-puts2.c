@@ -15,4 +15,5 @@ while (i < n - 1)
 _putchar(str[i]);
 i = i + 2;
 }
+_putchar('\n');
 }
