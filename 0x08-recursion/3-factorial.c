@@ -15,5 +15,5 @@ else
 res = n * factorial(n - 1);
 return (res);
 }
-return (0);
+
 }
