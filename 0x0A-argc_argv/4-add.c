@@ -16,7 +16,7 @@ if (!isdigit(argv[i])
 printf("Error\n");
 return (1);
 }
-sum += argv[i];
+sum += atoi(argv[i]);
 }
 return (sum);
 }
