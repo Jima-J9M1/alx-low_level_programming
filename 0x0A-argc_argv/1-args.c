@@ -7,5 +7,5 @@
  */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
-return argc - 1; 
+return (argc - 1);
 }
