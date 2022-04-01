@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - function that prints the two sum
  * @argc: paramter of the function
@@ -7,7 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-printf("%d\n", argv[1] + argv[2]);
+  printf("%d\n", rgv[1] * argv[2]);
 }
 return (0);
 }
