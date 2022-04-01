@@ -1,5 +1,5 @@
 # Argument
-Project done during **Full Stack Software Engineering studies** at **[ALX]**. It aims to learn about arguments and how to implement it in **C language**.
+Project done during **Full Stack Software Engineering studies** at **[ALX](https://www.alxafrica.com/)**. It aims to learn about arguments and how to implement it in **C language**.
 
 ## Technologies
 * C files are compiled using `gcc 8.2.2`
