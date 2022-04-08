@@ -1,5 +1,4 @@
 #include "main.h"
-#include <limits.h>
 /**
  * malloc_checked - allocate a memory for different data types
  * @b: sizeof the memory
@@ -8,7 +7,7 @@
 void *malloc_checked(unsigned int b)
 {
 void *ptr;
-if (b > 0 && b < INT_MAX)
+if (b > 0 && b < 100000000000000)
 {
 ptr = malloc(b);
 }
